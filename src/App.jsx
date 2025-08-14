@@ -12,10 +12,13 @@ function App() {
 
       <Element name="Home">
         <section className='bg-[url(/bgplayalone.png)] h-[781px] w-full bg-cover bg-center text-white'>
-          <div className='flex flex-col justify-center h-full p-8 w-100'>
+          <div className='flex flex-col justify-center h-full p-8'>
             <h1 className='text-3xl font-bold'>PlayALONE</h1>
-            <p className='text-2xl'>is a passionate indie game development team dedicated to crafting unique, story-driven experiences</p>
-            <button className='bg-highlight p-4 text-4xl font-bold rounded-2xl'>Follow Us</button>
+            <p className='text-2xl'>is a passionate indie game 
+              development team dedicated to <br/>
+              crafting unique, story-driven 
+              experiences</p>
+            <button className='bg-highlight p-4 w-50 text-4xl font-bold rounded-2xl mt-10'>Follow Us</button>
           </div>
         </section>
       </Element>
