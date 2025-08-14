@@ -5,7 +5,7 @@ function Navbar () {
     <nav className="bg-black-figma p-4">
       <div className="container flex justify-between items-center font-bold text-2xl">
         <div className="text-white text-lg mr-0">
-          <img src="public/playalonelogo.png" alt="" className="w-[50px] md:w-[250px]"/>
+          <img src="/playalonelogo.png" alt="" className="w-[50px] md:w-[250px]"/>
         </div>
         <ul className="flex space-x-4 text-white-figma">
           <li className='text-xl'>
