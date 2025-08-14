@@ -15,7 +15,7 @@ function App() {
             <h1 className='text-3xl font-bold'>PlayALONE</h1>
             <p className='text-2xl'>is a passionate indie game 
             <p>development team dedicated to</p>
-            <p>crafting unique, story-driven</p>
+            <p>crafting unique, stoqry-driven</p>
               experiences</p>
             <button className='bg-highlight p-4 w-50 text-4xl font-semibold rounded-2xl mt-10'>Follow Us</button>
           </div>
