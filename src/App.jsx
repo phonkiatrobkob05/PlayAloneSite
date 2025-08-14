@@ -12,9 +12,10 @@ function App() {
 
       <Element name="Home">
         <section className='bg-[url(public/bgplayalone.png)] h-[781px] w-full bg-cover bg-center text-white'>
-          <div className='flex flex-col justify-center h-full p-8 w-64'>
+          <div className='flex flex-col justify-center h-full p-8 w-100'>
             <h1 className='text-3xl font-bold'>PlayALONE</h1>
             <p className='text-2xl'>is a passionate indie game development team dedicated to crafting unique, story-driven experiences</p>
+            <button className='bg-highlight p-4 text-4xl font-bold rounded-4xl'>Follow Us</button>
           </div>
         </section>
       </Element>
