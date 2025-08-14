@@ -7,35 +7,22 @@ import { Link, Element } from 'react-scroll';
 
 function App() {
   return (
-    <>
+    <div className='bg-[url(/bgplayalone.png)] h-screen w-full bg-cover bg-center text-white'>
       <Navbar />
-
       <Element name="Home">
-        <section className='bg-[url(/bgplayalone.png)] h-[781px] w-full bg-cover bg-center text-white'>
-          <div className='flex flex-col justify-center h-full p-8'>
+        <section className=''>
+          <div className='flex flex-col justify-center h-full p-4'>
             <h1 className='text-3xl font-bold'>PlayALONE</h1>
             <p className='text-2xl'>is a passionate indie game 
-              development team dedicated to <br/>
-              crafting unique, story-driven 
+            <p>development team dedicated to</p>
+            <p>crafting unique, story-driven</p>
               experiences</p>
-            <button className='bg-highlight p-4 w-50 text-4xl font-bold rounded-2xl mt-10'>Follow Us</button>
+            <button className='bg-highlight p-4 w-50 text-4xl font-semibold rounded-2xl mt-10'>Follow Us</button>
           </div>
         </section>
       </Element>
-      <Element name="Ta-Khon">
-        <section className='bg-black-figma text-white p-8'>
-          <h1>Ta-Khon</h1>
-          <p>This is the content of TaKhon</p>
-        </section>
-      </Element>
-      <Element name="Contact">
-        <section className='bg-black-figma text-white p-8'>
-          <h1>Contact</h1>
-          <p>This is the content of Contact</p>
-        </section>
-      </Element>
       <Footer />
-    </>
+    </div>
   )
 }
 
