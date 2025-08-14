@@ -8,14 +8,14 @@ function Navbar () {
           <img src="/playalonelogo.png" alt="" className="w-[100px] md:w-[250px]"/>
         </div>
         <ul className="flex space-x-4 text-white-figma">
-          <li className='text-xl'>
+          <li className='text-xl cursor-pointer'>
             <Link to="Home" smooth={true} duration={500}>Home</Link>
           </li>
-          <li className='text-xl'>
+          <li className='text-xl cursor-pointer'>
             <Link to="TaKhon" smooth={true} duration={500}>TaKhon</Link>
           </li>
-          <li className='text-xl'>
-            <Link to="Contact" smooth={true} duration={500}>TaKhon</Link>
+          <li className='text-xl cursor-pointer'>
+            <Link to="Contact" smooth={true} duration={500}>itch.io</Link>
           </li>
         </ul>
       </div>
