@@ -8,7 +8,7 @@ function Navbar() {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <nav className="bg-black-figma p-4">
+    <nav className="bg-black-figma p-4 fixed top-0 w-full z-50">
       <div className="container flex justify-between items-center font-bold text-2xl">
         <div className="text-white text-lg">
           <img
