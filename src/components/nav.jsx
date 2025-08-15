@@ -14,7 +14,7 @@ function Navbar() {
           <img
             src="/playalonelogo.png"
             alt="Logo"
-            className="w-[100px] md:w-[250px]"
+            className="w-[120px] md:w-[250px]"
           />
         </div>
         <ul className="hidden md:flex space-x-6 text-white-figma">
