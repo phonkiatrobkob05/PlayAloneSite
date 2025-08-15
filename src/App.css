@@ -5,4 +5,5 @@
   --color-white-figma: oklch(0.9037 0 0);
   --color-highlight: oklch(0.6617 0.2288 14.62);
   --color-white-sec: oklch(0.839 0 0);
+  --color-highlight-hover: oklch(0.6617 0.3241 14.62);
 }
